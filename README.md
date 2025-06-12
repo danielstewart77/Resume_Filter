@@ -10,13 +10,13 @@ This project automates the extraction and evaluation of candidate resumes and co
 
 ## Project Structure
 ```
-app.py                  # Main script to process resumes and generate CSV
-extraction.py           # PDF text extraction logic
-llm.py                  # LLM API integration and feature extraction
-models.py               # Pydantic model for selection criteria
-requirements.txt        # Python dependencies
-resumes/                # Folder containing candidate resumes and cover letters
-candidates_selection*.csv # Output CSV files
+app.py                      # Main script to process resumes and generate CSV
+extraction.py               # PDF text extraction logic
+llm.py                      # LLM API integration and feature extraction
+models.py                   # Pydantic model for selection criteria
+requirements.txt            # Python dependencies
+resumes/                    # Folder containing candidate resumes and cover letters
+candidates_selection*.csv   # Output CSV files
 ```
 
 ## How It Works

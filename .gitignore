@@ -3,3 +3,5 @@ venv/
 resumes/*.pdf
 *.csv
 *.xlsx
+__pycache__/
+*.pyc

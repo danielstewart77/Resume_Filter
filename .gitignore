@@ -1,0 +1,5 @@
+venv/
+.env
+resumes/*.pdf
+*.csv
+*.xlsx

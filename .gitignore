@@ -1,6 +1,7 @@
 venv/
 .env
 resumes/*.pdf
+resumes_old/*.pdf
 *.csv
 *.xlsx
 __pycache__/

@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-def extract_using_text(text: str, llm_model:str, feature_model: BaseModel):
+def extract_using_text(text: str, llm_model:str, feature_model: type[BaseModel]):
     logger.info("Extracting using text.")
 
     url = f"https://ul-openai-api-dev.openai.azure.com/openai/deployments/{llm_model}/chat/completions?api-version=2024-10-01-preview"
